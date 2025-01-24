@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <body style="background-color:rgb(255, 101, 0);"></body>
+    <header>
+        <a href="">
+            <img src="../assets/img/logotipo NUEVO.png" alt="">
+        </a>
+        <nav>
+            <section class="tituloArg">
+                <h1>Liga Argentina</h1>
+                </section>
+            <ul  class="barraBusquedaLigaArg">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./jugadores.html">JUGADORES</a></li>
+                <li><a href="./equipos.html">EQUIPOS</a></li>
+                <li><a href="#">LIGA ARGENTINA</a></li>
+                <li><a href="./resultados.html">RESULTADOS</a></li>
+                <li><a href="#elfinal">REDES</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <section class="ligaArg">
+            <h2>Equipos Liga Argentina</h2>
+        </section>
+        <section class="buscarEquiposArg">
+            <label for="equiposArg"></label>                                                 <!--BUSCAR EQUIPO-->
+            <input type="text" id="equiposArg" name="equiposArg" required placeholder= "Buscar un equipo...">
+            <select name="equiposPorCiudad" id="equiposPorCiudad">                          <!--OPCIONES DESPLEGABLES FILTRAR POR DIVISION-->
+                <option value="">Buenos Aires</option>
+                <option value="">CABA</option>
+                <option value="">Cordoba</option>
+                <option value="">Junin</option>
+                <option value="">Mar de plata</option>
+                <option value="">Corrientes</option>
+            </select>
+            <input type="submit">
+        </section>
+        <section class="equiposLigaArg">
+            <img src="../assets/img/liga Argentina Posiciones.jpg" alt="equipos liga Argentina fondo rojo">
+        </section>
+        <section class="ultimasNoticias">
+            <h2>Últimas noticias de la liga Argentina</h2> 
+                <div class="noticias">
+                    <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/REI_U_Mw3ro?si=CgasjDMXUVnKYmvm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+                    <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/wfvzbzTiRFo?si=zdowXcxpm9mxVtSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+                    <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/JAvwzpox9W8?si=eZubV9391-PxIn06" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+                </div>      
+        </section>
+    </main>
+    <footer> 
+        <p id="elfinal"</p>
+            <p>¡También puedes encontrarnos en redes!</p>
+            <ul>
+                <li><a href="https://www.instagram.com" target="_blank">instagram</a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank">whatsapp</a></li>
+                <li><a href="https://x.com/?lang=es" target="_blank">x</a></li>
+            </ul>
+    </footer>    
+</body>
+</html>
